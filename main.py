@@ -24,11 +24,11 @@ from state import PhoneNumberState, WikipediaState, QrcodeState, LevelState, Tra
     DownloadersState
 from keyboard import main_menu, back_button, pdf_creation_keyboard, main_downloader, level_button, stop_button, stop_button2
 
-BOT_TOKEN = '8004693955:AAGa3fyqPD4jNAACZFMeqOG3cQ3qIqTkMSA'
+BOT_TOKEN = ''
 bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
-# API_KEY = "15f0c9fd96fc807b103f6196"
+# API_KEY = ""
 # url = f"https://v6.exchangerate-api.com/v6/{API_KEY}/pair/USD/UZS"
 
 wikipedia.set_lang("uz")
